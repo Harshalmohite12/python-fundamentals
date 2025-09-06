@@ -7,7 +7,3 @@
 # data = f.write("HEllo my name is demo")
 # print(data)
 # f.close()
-
-print("HEllo world")
-print("HElooooooooooooooooooooo")
-print("helo")
