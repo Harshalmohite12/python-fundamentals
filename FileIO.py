@@ -3,7 +3,9 @@
 # print(data)
 # f.close()
 
-f = open("Demo.txt", "w")
-data = f.write("HEllo my name is demo")
-print(data)
-f.close()
+# f = open("Demo.txt", "w")
+# data = f.write("HEllo my name is demo")
+# print(data)
+# f.close()
+
+print("HEllo world")
