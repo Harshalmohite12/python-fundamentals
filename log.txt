@@ -1,3 +1,0 @@
-First experiment: Accuracy = 85%
-Second experiment: Accuracy = 87%
-Third experiment: Accuracy = 90%
