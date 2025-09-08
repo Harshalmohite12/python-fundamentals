@@ -1,23 +1,20 @@
 # class Student:
-#     name = "Harshal Mohite"
-    
-# s1 = Student()
-# print(s1.name)
-
-# class Student:
     
 #     def __init__(self, name, marks1, marks2, marks3):
 #         self.name = name
 #         self.marks1 = marks1
 #         self.marks2 = marks2
 #         self.marks3 = marks3
-#         print("Addong new student...")
+#         print("Adding new student...")
         
 #     def average(self):
 #         return (self.marks1 + self.marks2 + self.marks3)/3
 
-# s1 = Student("Harshal", 90, 90, 90)
-# print("Avergae marks of student",s1.name,"is",s1.average(),"%")
+
+# # Now create the student object AFTER class definition
+# s1 = Student("Harshal Mohite", 90, 90, 90)
+# print("Student name:", s1.name)
+# print("Average marks of student", s1.name, "is", s1.average(), "%")
 
 
 # class Car:
@@ -113,7 +110,7 @@
 # acc = CurrentAccount("C123", 1000, overdraft_limit=500)
 
 # acc.withdraw(1200)   # Allowed → balance = -200
-# acc.withdraw(400)    # ❌ Not allowed (would go to -600)
+# acc.withdraw(400)    # Not allowed (would go to -600)
 # acc.withdraw(200)    # Allowed → balance = -400
 
 
