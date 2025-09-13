@@ -1,13 +1,24 @@
-sup_heroes_types = {"Hero" : "IronMan", "Patriot" : "Captain", "AntiHero" : "Loki"}
+# sup_heroes_types = {"Hero" : "IronMan", 
+#                     "Patriot" : "Captain", 
+#                     "AntiHero" : "Loki"
+#                     }
 # print(sup_heroes_types["Hero"]) #if you enterd wrong key it will throw error
+
 # print(sup_heroes_types.get("Patriot")) #it will not throe error. it will print none.
-sup_heroes_types["AntiHero"] = "Deadpool"
-sup_heroes_types["Green"] = "Hulk"
+
+# sup_heroes_types["AntiHero"] = "Deadpool"
+
+# sup_heroes_types["Green"] = "Hulk"
+
 # print(len(sup_heroes_types))
+
 # sup_heroes_types.pop("Green") #it will print or return value of green(if you print this) and remove key value pair of green.
+
 # sup_heroes_types.popitem(); #it removes last items. 
-del sup_heroes_types["Green"] #delete specefic item.
-sup_heroes_types_copy = sup_heroes_types.copy()
+
+# del sup_heroes_types["Green"] #delete specefic item.
+
+# sup_heroes_types_copy = sup_heroes_types.copy()
 
 # print(sup_heroes_types)
 
@@ -41,3 +52,6 @@ SuperHero_Shop = {
 # deafult = "smart"
 # new_dict = dict.fromkeys(keys, deafult)
 # print(new_dict)
+
+# SuperHero_Shop.update( {"Antman" : {"Tony" : "OG IronMan", "Tom" : "Supereme IronMan"}})
+# print(SuperHero_Shop["Antman"])
